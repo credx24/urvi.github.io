@@ -30,7 +30,7 @@
           <span class="toggler-icon bottom-bar"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-15 mb-lg-0 fs-5 text-center">
+          <ul class="navbar-nav me-auto mb-15 mb-lg-0 fs-5 text-center gap-2">
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"  data-bs-toggle="dropdown" aria-expanded="false">
                 Use Credx
@@ -61,7 +61,7 @@
               <ul class="dropdown-menu text-primary dropdown-menu-dark" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="Developer_home.html">Developer'S Home</a></li>
                 <li><a class="dropdown-item" href="Documentation.html">Documentation</a></li>
-                <li><a class="dropdown-item" href="tutorial.html">Tutorials</a></li>
+                <li><a class="dropdown-item" href="set_up_local_environment.html">Set Up Local Environment</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -84,24 +84,37 @@
             </li>
           </ul>
           <form class="d-flex text-white fs-6" style="width: 30px;">
-            <i class="fas fa-moon" onclick="myFunction()"><br>
-                <script>
-                    function myFunction() {
-                    var element = document.body;
-                    element.classList.toggle("dark-mode");
-                    }
-                </script>
-            </i>
-        </form>
-        <form class="d-flex justify-content-md-end" id="google_translate_element">
-            <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-                <script>
-                        function googleTranslateElementInit() {
-                            new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 'google_translate_element');
-                        }
-                </script>
-            </script>
-        </form>
+              <i class="fas fa-moon" onclick="myFunction()"><br>
+                  <script>
+                      function myFunction() {
+                      var element = document.body;
+                      element.classList.toggle("dark-mode");
+                      }
+                  </script>
+              </i>
+          </form>
+          <form class="d-flex justify-content-md-end" id="google_translate_element">
+              <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                  <script>
+                          function googleTranslateElementInit() {
+                              new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 'google_translate_element');
+                          }
+                  </script>
+              </script>
+          </form>
+          <div class="d-flex align-items-center">
+            <!-- Icon -->
+          <a
+        class="btn btn-dark px-3"
+        href="https://credx24.com/Credx_v_2.2.apk"
+        role="button"
+        ><img src="images/online/playstore.png" width="30px"></a>
+        <a
+        class="btn btn-dark px-3"
+        href="https://credx24.com/CredX-iOS.mobileconfig"
+        role="button"
+        ><img src="images/online/app-store.png" width="30px"></a>
+        </div>
         </div>
       </div>
     </nav>
@@ -128,43 +141,42 @@
           </div>
         </section>
         <hr class="my-5">
-        <section>
+        <section style="padding-bottom: 10%;">
           <div class="row">
             <div class="col-md-6 text-start">
-              <h3 style="font-weight: bold;">An app for managing your <br><span class="text-primary text-center">funds</span></h3>
+              <h3 style="font-weight: bold; padding-top: 2%; padding-bottom: 3%;">What's an <span class="text-primary text-center">Credx</span> wallet?</h3>
               <p>Credx wallets are applications that let you interact with your Credx account. Think of it like an internet banking app – without the bank. Your wallet lets you read your balance, send transactions and connect to applications.You need a wallet to send funds and manage your CDX. <a href="#" style="color: goldenrod;">More on CDX</a></p>
             </div>
             <div class="col-md-6 text-start">
               <h3></h3>
-              <p style="padding-top: 11%;">Your wallet is only a tool for managing your Credx account. That means you can swap wallet providers at any time. Many wallets also let you manage several Credx accounts from one application.That's because wallets don't have custody of your funds, you do. They're just a tool for managing what's really yours.</p>
+              <p style="padding-top: 10%;">Your wallet is only a tool for managing your Credx account. That means you can swap wallet providers at any time. Many wallets also let you manage several Credx accounts from one application.That's because wallets don't have custody of your funds, you do. They're just a tool for managing what's really yours.</p>
             </div>
           </div>
         </section>
-        <hr class="my-5">
-        <section class="text-center">
+        <section class="text-start">
           <div class="row">
             <div class="col-lg-4 col-md-12 mb-4">
-              <div class="card border-dark mb-3" style="max-width: 23rem;">
+              <div class="card border-dark mb-3 bg-dark text-white" style="max-width: 23rem;">
                 <div class="card-header"><img src="images/online/money.png" style="width: 60px;"></div>
-                <div class="card-body text-dark">
+                <div class="card-body">
                   <h5 class="card-title" style="font-weight: bold;">An app for managing your funds</h5>
                   <p class="card-text">Your wallet shows your balances, transaction history and gives you a way to send/receive funds. Some wallets may offer more.</p>
                 </div>
               </div>
             </div>
             <div class="col-lg-4 col-md-12 mb-4">
-              <div class="card border-dark mb-3" style="max-width: 23rem;">
+              <div class="card border-dark mb-3 bg-dark text-white" style="max-width: 23rem;">
                 <div class="card-header"><img src="images/online/home.png" style="width: 60px;"></div>
-                <div class="card-body text-dark">
+                <div class="card-body">
                   <h5 class="card-title" style="font-weight: bold;">Your login for Credx apps</h5>
-                  <p class="card-text">Your wallet lets you connect to any decentralized application using your Credx account. It's like a login you can use across many dapps.</p>
+                  <p class="card-text" style="padding-bottom: 8%;">Your wallet lets you connect to any decentralized application using your Credx account. It's like a login you can use across many dapps.</p>
                 </div>
               </div>
             </div>
             <div class="col-lg-4 col-md-12 mb-4">
-              <div class="card border-dark mb-3" style="max-width: 23rem;">
+              <div class="card border-dark mb-3 bg-dark text-white" style="max-width: 23rem;">
                 <div class="card-header"><img src="images/online/person.png" style="width: 60px;"></div>
-                <div class="card-body text-dark">
+                <div class="card-body">
                   <h5 class="card-title" style="font-weight: bold;">Your Credx <br> account</h5>
                   <p class="card-text" style="padding-top: 4px;">Your wallet is your window into your Credx account – your balance, transaction history and more. But you can swap wallet providers at any time.</p>
                 </div>
@@ -172,7 +184,7 @@
           </div>
         </section>
         <hr class="my-5">
-        <section>
+        <section style="padding-bottom: 100px;">
           <div class="row">
             <div class="col-md-6 gx-5 mb-4">
               <h1 class="text-start" style="font-weight: bold;"><span class="text-primary">W</span>allets, <span class="text-primary">A</span>ccounts, and <span class="text-primary">A</span>ddresses</h1>
@@ -209,34 +221,28 @@
       <section class="mb-4">
         <!-- Facebook -->
         <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/CredXCoinOfficial" role="button" target="_blank"
-          ><i class="fab fa-facebook-f"></i
-        ></a>
+          ><img src="images/online/facebook2.png" width="30px"></a>
   
         <!-- Twitter -->
         <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/CREDX_" role="button" target="_blank"
-          ><i class="fab fa-twitter"></i
-        ></a>
+          ><img src="images/online/twitter2.png" width="30px"></a>
   
   
         <!-- Instagram -->
         <a class="btn btn-outline-light btn-floating m-1" href="https://instagram.com/credx_official?utm_medium=copy_link" role="button" target="_blank"
-          ><i class="fab fa-instagram"></i
-        ></a>
+          ><img src="images/online/instagram2.png" width="30px"></a>
   
         <!-- Linkedin -->
         <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/credx24/" role="button" target="_blank"
-          ><i class="fab fa-linkedin-in"></i
-        ></a>
+          ><img src="images/online/linkdin2.png" width="30px"></a>
    
         <!-- Youtube -->
         <a class="btn btn-outline-light btn-floating m-1" href="https://www.youtube.com/channel/UCIqeg1jZ2JjveGiMpRRmtqg" role="button" target="_blank"
-          ><i class="fab fa-youtube"></i
-        ></a>
+          ><img src="images/online/youtube2.png" width="30px"></a>
 
         <!-- Telegram -->
         <a class="btn btn-outline-light btn-floating m-1" href="https://t.me/credx" role="button" target="_blank"
-          ><i class="fab fa-telegram"></i
-        ></a>
+          ><img src="images/online/telegram2.png" width="30px"></a>
         
       </section>
       <!-- Section: Social media -->
@@ -278,17 +284,17 @@
       </section>
       <!-- Section: Form -->
       <div class="row text-left">
-        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0 text-start">
             <h1 class="text-white" style="font-size: 20px; font-weight: bold;">CredX24.com</h1>
             <p class="text-muted"><img style="width: 20px;" src="images/online/join.png"> Join CredX Community.</p>
             <p class="text-muted">©Copyright 2021 CredX BlockChain™</p>
         </div>
-        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0 text-start">
             <h1 class="text-white" style="font-size: 20px; font-weight: bold;">Resources</h1>
             <p class="text-muted"><img style="width: 20px;" src="images/online/blockpapet.png"> Block paper</p>
             <p class="text-muted"><img style="width: 20px;" src="images/online/whitepaper.png"> WhitePaper</p>
         </div>
-        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0 text-start">
             <h1 class="text-white" style="font-size: 20px; font-weight: bold;">Where To contact?</h1>
             <p class="text-muted"><img style="width: 20px;" src="images/online/mail.png"> support@credx24.com</p>
             <p class="text-muted"><img style="width: 20px;" src="images/online/call.png"> Contact-No</p>
@@ -299,7 +305,11 @@
         <!--Grid row-->
         <div class="row">
           <!--Grid column-->
-          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0 text-start">
+            <h1 class="text-white" style="font-size: 20px; font-weight: bold;">About</h1>
+            <p class="text-start text-muted">CredX Blockchain is the new age community-run technology powering the cryptocurrency CredX Coin (CDX).</p>
+          </div>
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0 text-start">
                 <h1 class="text-white" style="font-size: 20px; font-weight: bold;">Use CredX</h1>
                 <div class="more"><p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="credx_wallet.html">CredX Wallets</a></p></div>
                 <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="Get_CDX.html">Get CDX</a></p>
@@ -308,7 +318,7 @@
           <!--Grid column-->
   
           <!--Grid column-->
-          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0 text-start">
             <h1 class="text-white" style="font-size: 20px; font-weight: bold;">Learn</h1>
                 <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="What_is_credx.html">What is CredX?</a></p>
                 <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="what_is_cdx.html">What is CDX?</a></p>
@@ -321,19 +331,19 @@
           <!--Grid column-->
   
           <!--Grid column-->
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0 text-start">
             <h1 class="text-white" style="font-size: 20px; font-weight: bold;">Developers</h1>
                 <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="Developer_name.html">Developer'S Home</a></p>
                 <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="Documentation.html">Documentation</a></p>
                 <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="tutorial.html">Tutorials</a></p>
           </div>
           <!--Grid column-->
-          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0 text-start">
             <h1 class="text-white" style="font-size: 20px; font-weight: bold;">Enterprise</h1>
             <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="mainnet_credx.html">Mainnet CredX</a></p>
             <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="private_credx.html">Private CredX</a></p>
           </div>
-          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0 text-start">
             <h1 class="text-white" style="font-size: 20px; font-weight: bold;">Community</h1> 
             <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="Community_hub.html"></a>Community Hub</p>
             <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="CredX_support.html">CredX Spport</a></p>
