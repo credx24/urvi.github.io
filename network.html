@@ -7,6 +7,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
     <script src="https://kit.fontawesome.com/6c630a0de2.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Rowdies&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
@@ -17,7 +18,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@900&display=swap" rel="stylesheet">
-    <title>Get_CDX</title>
+    <title>Network</title>
   </head>
   <body>
     <!--Nav start-->
@@ -120,103 +121,125 @@
     </nav>
     <!--nav end-->
     <!--main start-->
-    <main class="mt-5">
+    <main>
       <div class="container">
         <section>
-          <div class="row justify-content-center">
-            <div class="col-md-4 text-center">
-              <h1 style="font-weight: bold; padding-bottom: 2%;">Where to buy <span class="text-primary">CDX</span></h1>
-              <p>You can buy CDX from exchanges or from wallets directly.</p>
-              <p>Check which services you can use based on where you live.</p>
-              <div class="card w-100">
-                <div class="card-body">
-                  <h5 class="card-title" style="font-weight: bold;">Current CDX Value</h5>
-                  <p class="card-text" style="font-size: 30px;">$2.4382367</p>
-                  <a href="#" class="btn btn-warning">Get CDX</a>
+          <div class="tag"></div>
+            <div class="container mycontainer">
+              <div class="row p-3 myrow shadow-lg custom-row">
+                <div class="col-md-3">
+                  <div id="list-example" class="list-group">
+                      <a class="text-start" href="Overview.html" style="text-decoration: none; color: orangered; font-size: 20px; padding-top: 2%; padding-bottom: 3%;">Overview</a>
+                      <ul style="list-style-type: none;">
+                        <li class="nav-item" style="text-decoration: none;">
+                          <a class="nav-link text-start" href="#list-item-1">Foundational topics</a>
+                          <ul class="nav flex-column ps-3">
+                            <li class="nav-item">
+                              <a class="nav-link" href="intro-to-credx.html">Intro to Credx</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="intro-to-cdx.html">Intro to CDx</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="intro-to-dapps.html">Intro to dapps</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="web2-vs-web3.html">web2 vs web3</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="Accounts.html">Accounts</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="Blocks.html">Blocks</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="network.html">Networks</a>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                      <ul style="list-style-type: none;">
+                        <li class="nav-item" style="text-decoration: none;">
+                          <a class="nav-link text-start" href="#list-item-2">Credx Stake</a>
+                          <ul class="nav flex-column ps-3">
+                            <li class="nav-item">
+                              <a class="nav-link" href="intro-to-stack.html">Intro to the stack</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="smart-contracts.html">Smart Contract</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="Developmet_framework.html">Development Framework</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="storage.html">Storage</a>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                      <ul style="list-style-type: none;">
+                        <li class="nav-item" style="text-decoration: none;">
+                          <a class="nav-link text-start" href="Advanced.html">Advanced</a>
+                        </li>
+                      </ul>
+                  </div>
+                </div>
+                  <div class="col-md-9 pe-0 text-center" style="padding-top: 5%;">
+                    <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+                        <h3 id="list-item-1" class="text-center" style="padding-bottom: 3%; font-weight: bold;">NETWORKS</h3>
+                        <p class="text-start">Since Credx is a protocol, this means there can be multiple independent "networks" conforming to this protocol that do not interact with each other.</p>
+                        <p class="text-start">Networks are different Credx environments you can access for development, testing, or production use cases. Your Ethereum account will work across the different networks but your account balance and transaction history won't carry over from the main Credx network. For testing purposes, it's useful to know which networks are available and how to get testnet CDX so you can play around with it.</p>
+                        <h4 class="text-start">PUBLIC NETWORKS</h4>
+                        <hr class="my-3">
+                        <p class="text-start">Public networks are accessible to anyone in the world with an internet connection. Anyone can read or create transactions on a public blockchain and validate the transactions being executed. Agreement on transactions and the state of the network is decided by a consensus of peers</p>
+                        <h4 class="text-start">Mainnet</h4>
+                        <hr class="my-3">
+                        <p class="text-start">Mainnet is the primary public Ethereum production blockchain, where actual-value transactions occur on the distributed ledger.</p>
+                        <p class="text-start">When people and exchanges discuss CDX prices, they're talking about Mainnet CDX.</p>
+                        <h4 class="text-start">Testnets</h4>
+                        <hr class="my-3">
+                        <p class="text-start">In addition to Mainnet, there are public testnets. These are networks used by protocol developers or smart contract developers to test both protocol upgrades as well as potential smart contracts in a production-like environment before deployment to Mainnet. Think of this as an analog to production versus staging servers.</p>
+                        <p class="text-start">It’s generally important to test any contract code you write on a testnet before deploying to the Mainnet. If you're building a dapp that integrates with existing smart contracts, most projects have copies deployed to testnets that you can interact with.</p>
+                        <p class="text-start">Most testnets use a proof-of-authority consensus mechanism. This means a small number of nodes are chosen to validate transactions and create new blocks – staking their identity in the process. It's hard to incentivise mining on a proof-of-work testnet which can leave it vulnerable.</p>
+                        <p class="text-start">CDX on testnets has no real value; therefore, there are no markets for testnet CDX. Since you need CDX to actually interact with Credx, most people get testnet CDX from faucets. Most faucets are webapps where you can input an address which you request CDX to be sent to.</p>
+                        <h4 class="text-start">PRIVATE NETWORKS</h4>
+                        <hr class="my-3">
+                        <p class="text-start">A Credx network is a private network if its nodes are not connected to a public network (i.e. Mainnet or a testnet). In this context, private only means reserved or isolated, rather than protected or secure.</p>
+                        <h4 class="text-start">Development networks</h4>
+                        <hr class="my-3">
+                        <p class="text-start">To develop an Ethereum application, you'll want to run it on a private network to see how it works before deploying it. Similar to how you create a local server on your computer for web development, you can create a local blockchain instance to test your dapp. This allows for much faster iteration than a public testnet.</p>
+                        <h4 class="text-start">WHAT IS A BLOCKCHAINConsortium networks</h4>
+                        <hr class="my-3">
+                        <p class="text-start">The consensus process is controlled by a pre-defined set of nodes that are trusted. For example, a private network of known academic institutions that each govern a single node, and blocks are validated by a threshold of signatories within the network.</p>
+                        <p class="text-start">If a public Credx network is like the public internet, you can think of a consortium network as a private intranet.</p>
+                        <div class="card text-white bg-dark mb-3 float-start" style="width: 18rem;">
+                            <div class="card-body">
+                              <h5 class="card-title">PREVIOUS</h5>
+                              <img src="images/online/left.svg" style="width: 50px;">
+                              <p class="card-text"><a href="" style="color: yellow;">Blocks</a></p>
+                            </div>
+                        </div>
+                        <div class="card text-white bg-dark mb-3 float-end" style="width: 18rem;">
+                            <div class="card-body">
+                              <h5 class="card-title">NEXT</h5>
+                              <img src="images/online/right.svg" style="width: 50px;">
+                              <p class="card-text"><a href="" style="color: yellow;">Intro to Stack</a></p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-        </section>
-        <hr class="my-5">
-        <section>
-          <div class="row">
-            <div class="col-md-4">
-              <div class="card text-white bg-dark mb-3" style="max-width: 500rem;">
-                <div class="card-header"><img src="images/online/centralized.png" style="width: 100px;"></div>
-                <div class="card-body">
-                  <h5 class="card-title" style="font-weight: bold; padding-top: 5%; padding-bottom: 6%;">Centralized exchanges</h5>
-                  <p class="card-text" style="padding-top: 5%; padding-bottom: 10%;">Exchanges are businesses that let you buy crypto using traditional currencies. They have custody over any ETH you buy until you send it to a wallet you control.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card text-white bg-dark mb-3" style="max-width: 500rem;">
-                <div class="card-header"><img src="images/online/persons.png" style="width: 100px;"></div>
-                <div class="card-body">
-                  <h5 class="card-title" style="font-weight: bold; padding-top: 5%; padding-bottom: 12%;">Decentralized exchanges (DEXs)</h5>
-                  <p class="card-text" style="padding-top: 5%; padding-bottom: 10%;">If you want more control, buy ETH peer-to-peer. With a DEX you can trade without giving control of your funds to a centralized company.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card text-white bg-dark mb-3" style="max-width: 500rem;">
-                <div class="card-header"><img src="images/online/wallet.png" style="width: 100px;"></div>
-                <div class="card-body">
-                  <h5 class="card-title text-start" style="font-weight: bold; padding-top: 5%; padding-bottom: 12%;">Wallets</h5>
-                  <p class="card-text" style="padding-top: 5%; padding-bottom: 10%;">Some wallets let you buy crypto with a debit/credit card, bank transfer or even Apple Pay. Geographical restrictions apply.</p>
-                </div>
-              </div>
-            </div>
-        </section>
-        <hr class="my-5">
-        <section>
-          <div class="row">
-            <h1 style="font-weight: bold; padding-bottom: 60px;" class="text-center">Decentralized exchanges (DEXs)</h1>
-            <div class="col-md-6 gx-5 mb-4" style="padding-bottom: 40px;">
-              <h1 style="font-weight: bold; padding-bottom: 30px;">What are <span class="text-primary">DEXs?</span></h1>
-              <p>Decentralized exchanges are open marketplaces for CDX and other tokens. They connect buyers and sellers directly.</p>
-              <p>Instead of using a trusted third party to safeguard funds in the transaction, they use code. The seller's CDX will only be transferred when payment is guaranteed. This type of code is known as a smart contract.</p>
-              <p>This means there are fewer geographical restrictions than with centralized alternatives. If someone is selling what you want and accepting a payment method you can provide, you’re good to go. DEXs can let you buy CDX with other tokens, PayPal or even in-person cash deliveries.</p>
-              <p>You will need a wallet to use a DEX.</p>
-              <button class="btn btn-warning px-4 py-2" style="border-radius: 30px; font-weight: bold;">CDX Wallet</button>
-            </div>
-            <div class="col-md-6 gx-5 mb-4">
-              <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5" data-mbd-ripple-color="light">
-                <img src="images/getstarted.svg" class="img-fluid">
-                <a href="#!">
-                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
-        <hr class="my-5">
-        <section>
-          <h1 style="font-weight: bold; padding-bottom: 50px; padding-top: 10px;" class="text-center">Keeping your <span class="text-primary">CDX</span> safe</h1>
-          <div class="row">
-            <div class="col-md-6 gx-5 mb-4">
-              <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5" data-mbd-ripple-color="light">
-                <img src="images/getstarted.svg" class="img-fluid">
-                <a href="#!">
-                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                </a>
-              </div>
-            </div>
-            <div class="col-md-6 gx-5 mb-4">
-              <p>CredX and CDX aren't controlled by any government or company - they are decentralized. This means CDX's open to everyone to use.</p>
-              <p>But this also means you need to take the security of your funds seriously. With CDX, you’re not trusting a bank to look after your money, you’re trusting yourself.</p>
-              <h3 style="font-weight: bold; padding-bottom: 20px; padding-top: 20px;">Protect your <span class="text-primary">CDX</span> in a wallet</h3>
-              <p>If you plan on buying a lot of CDX you may want to keep it in a wallet you control, not an exchange. That's because an exchange is a likely target for hackers. If a hacker gains access, you could lose your funds. Alternatively, only you have control of your wallet.</p>
-            </div>
-          </div>
-        </section>
-        <hr class="my-5">
-      </div>
-    </main>
+          </section>
+        </div>
+    </main>  
     <!--main end-->
     <!--footer start-->
     <div class="container p-0">
+        
     </div>
+    
     <!-- Footer -->
     <footer class="bg-dark text-center text-white">
     <!-- Grid container -->
@@ -377,4 +400,3 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->
   </body>
-</html>

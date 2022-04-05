@@ -7,6 +7,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
     <script src="https://kit.fontawesome.com/6c630a0de2.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Rowdies&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
@@ -17,7 +18,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@900&display=swap" rel="stylesheet">
-    <title>Documentation</title>
+    <title>Introduction to Stack</title>
   </head>
   <body>
     <!--Nav start-->
@@ -119,101 +120,126 @@
       </div>
     </nav>
     <!--nav end-->
-    <!--section1 start-->
-    <section class="section1">
+    <!--main start-->
+    <main>
       <div class="container">
-        <div class="row">
-          <div class="col-md-4"></div>
-          <div class="col-md-8">
-            <h1 style="padding-top: 1%; padding-bottom: 1%; font-weight: bold;">CREDX DEVELOPMENT DOCUMENTATION</h1>
-            <p style="padding-top: 1%; padding-bottom: 1%;">This documentation is designed to help you build with Ethereum. It covers Ethereum as a concept, explains the Ethereum tech stack, and documents advanced topics for more complex applications and use cases.</p>
-            <p style="padding-top: 1%; padding-bottom: 1%;">This is an open-source community effort, so feel free to suggest new topics, add new content, and provide examples wherever you think it might be helpful. </p>
-            <h2 style="padding-top: 1%; padding-bottom: 1%; font-weight: bold;">DEVELOPMENT MODULES</h2>
-            <p style="padding-top: 1%; padding-bottom: 1%;">If this is your first attempt at Ethereum development, we recommend starting at the beginning and working your way through like a book.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--section1 end-->
-    <!--section2 start-->
-    <section class="section2">
-      <div class="row">
-        <div class="container">
-          <div class="col-md-8">
-            <!-- Spied element -->
-            <div
-              data-mdb-spy="scroll"
-              data-mdb-target="#scrollspy1"
-              data-mdb-offset="0"
-              class="scrollspy-example"
-            >
-              <section id="example-1">
-                <h3>Section 1</h3>
-                ...
-              </section>
-              <section id="example-2">
-                <h3>Section 2</h3>
-                ...
-              </section>
-              <section id="example-3">
-                <h3>Section 3</h3>
-                ...
-                <section id="example-sub-A">
-                  <h3>Subsection A</h3>
-                  ...
-                </section>
-                <section id="example-sub-B">
-                  <h3>Subsection B</h3>
-                  ...
-                </section>
-              </section>
-              <section id="example-4">
-                <h3>Section 4</h3>
-                ...
-              </section>
+        <section>
+          <div class="tag"></div>
+            <div class="container mycontainer">
+              <div class="row p-3 myrow shadow-lg custom-row">
+                <div class="col-md-3">
+                  <div id="list-example" class="list-group">
+                      <a class="text-start" href="Overview.html" style="text-decoration: none; color: orangered; font-size: 20px; padding-top: 2%; padding-bottom: 3%;">Overview</a>
+                      <ul style="list-style-type: none;">
+                        <li class="nav-item" style="text-decoration: none;">
+                          <a class="nav-link text-start" href="#list-item-1">Foundational topics</a>
+                          <ul class="nav flex-column ps-3">
+                            <li class="nav-item">
+                              <a class="nav-link" href="intro-to-credx.html">Intro to Credx</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="intro-to-cdx.html">Intro to CDx</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="intro-to-dapps.html">Intro to dapps</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="web2-vs-web3.html">web2 vs web3</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="Accounts.html">Accounts</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="Blocks.html">Blocks</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="network.html">Networks</a>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                      <ul style="list-style-type: none;">
+                        <li class="nav-item" style="text-decoration: none;">
+                          <a class="nav-link text-start" href="#list-item-2">Credx Stake</a>
+                          <ul class="nav flex-column ps-3">
+                            <li class="nav-item">
+                              <a class="nav-link" href="intro-to-stack.html">Intro to the stack</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="smart-contracts.html">Smart Contract</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="Developmet_framework.html">Development Framework</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="storage.html">Storage</a>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                      <ul style="list-style-type: none;">
+                        <li class="nav-item" style="text-decoration: none;">
+                          <a class="nav-link text-start" href="Advanced.html">Advanced</a>
+                        </li>
+                      </ul>
+                  </div>
+                </div>
+                  <div class="col-md-9 pe-0 text-center" style="padding-top: 5%;">
+                    <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+                        <h3 id="list-item-1" class="text-center" style="padding-bottom: 3%; font-weight: bold;">INTRODUCTION TO DAPPS</h3>
+                        <h4 class="text-start">INTRODUCTION TO THE ETHEREUM STACK</h4>
+                        <hr class="my-3">
+                        <p class="text-start">Like any software stack, the complete "Credx stack" will vary from project to project depending on your goals.</p>
+                        <p class="text-start">There are, however, core components of Credx that help provide a mental model for how software applications interact with the Credx blockchain. Understanding the layers of the stack will help you understand the different ways that Credx can be integrated into software projects</p>
+                        <h4 class="text-start">INTRODUCTION TO THE ETHEREUM STACK</h4>
+                        <hr class="my-3">
+                        <p class="text-start">The Credx Virtual Machine (CVM) is the runtime environment for smart contracts in Credx. All smart contracts and state changes on the Credx blockchain are executed by transactions. The CVM handles all of the transaction processing on the Credx network.</p>
+                        <p class="text-start">As with any virtual machine, the CVM creates a level of abstraction between the executing code and the executing machine (an Credx node). Currently the CVM is running on thousands of nodes distributed across the world.</p>
+                        <p class="text-start">Under the hood, the CVM uses a set of opcode instructions to execute specific tasks. These (140 unique) opcodes allow the CVM to be Turing-complete, which means the CVM is able to compute just about anything, given enough resources.</p>
+                        <p class="text-start">As a dapp developer, you don't need to know much about the CVM other than it exists and that it reliably powers all applications on Credx without downtime.</p>
+                        <h4 class="text-start">LEVEL 2: SMART CONTRACTS</h4>
+                        <hr class="my-3">
+                        <p class="text-start">Smart contracts are the executable programs that run on the Credx blockchain.</p>
+                        <p class="text-start">Smart contracts are written using specific programming languages that compile to CVM bytecode (low-level machine instructions called opcodes).</p>
+                        <p class="text-start">Not only do smart contracts serve as open source libraries, they are essentially open API services that are always running and can't be taken down. Smart contracts provide public functions which users and applications (dapps) may interact with, without needing permission. Any application may integrate with deployed smart contracts to compose functionality, such as adding data feeds or to support token swaps. Additionally, anyone can deploy new smart contracts to Ethereum in order to add custom functionality to meet their application's needs.</p>
+                        <p class="text-start">As a dapp developer, you'll need to write smart contracts only if you want to add custom functionality on the Ethereum blockchain. You may find you can achieve most or all of your project's needs by merely integrating with existing smart contracts, for instance if you want to support payments in stablecoins or enable decentralized exchange of tokens.</p>
+                        <h4 class="text-start">LEVEL 3: CREDX NODES</h4>
+                        <hr class="my-3">
+                        <p class="text-start">In order for an application to interact with the Credx blockchain, it must connect to an Credx node. Connecting to a node allows you to read blockchain data and/or send transactions to the network.</p>
+                        <p class="text-start">Credx nodes are computers running software - an Credx client. A client is an implementation of Credx that verifies all transactions in each block, keeping the network secure and the data accurate. Credx nodes are the Credx blockchain. They collectively store the state of the Credx blockchain and reach consensus on transactions to mutate the blockchain state.</p>
+                        <p class="text-start">By connecting your application to an Ethereum node (via the JSON-RPC API), your application is able to read data from the blockchain (such as user account balances) as well as broadcast new transactions to the network (such as transferring CDX between user accounts or executing functions of smart contracts).</p>
+                        <h4 class="text-start">LEVEL 4: CREDX CLIENT APIS</h4>
+                        <hr class="my-3">
+                        <p class="text-start">Many convenience libraries (built and maintained by Credx's open source community) allow your applications to connect to and communicate with the Credx blockchain.</p>
+                        <p class="text-start">If your user-facing application is a web app, you may choose to npm install a JavaScript API directly in your frontend. Or perhaps you'll choose to implement this functionality server-side, using a Python or Java API.</p>
+                        <p class="text-start">While these APIs are not a necessary piece of the stack, they abstract away much of the complexity of interacting directly with an Credx node. They also provide utility functions (e.g. converting CDX to Gwei) so as a developer you can spend less time dealing with the intricacies of Credx clients and more time focused on the functionality specific to your application.</p>
+                        <h4 class="text-start">LEVEL 5: END-USER APPLICATIONS</h4>
+                        <hr class="my-3">
+                        <p class="text-start">At the top level of the stack are user-facing applications. These are the standard applications you regularly use and build today: primarily web and mobile apps.</p>
+                        <p class="text-start">The way you develop these user interfaces remains essentially unchanged. Often users will not need to know the application they're using is built using a blockchain.</p>
+                        <div class="card text-white bg-dark mb-3 float-start" style="width: 18rem;">
+                            <div class="card-body">
+                              <h5 class="card-title">PREVIOUS</h5>
+                              <img src="images/online/left.svg" style="width: 50px;">
+                              <p class="card-text"><a href="" style="color: yellow;">Networks</a></p>
+                            </div>
+                        </div>
+                        <div class="card text-white bg-dark mb-3 float-end" style="width: 18rem;">
+                            <div class="card-body">
+                              <h5 class="card-title">NEXT</h5>
+                              <img src="images/online/right.svg" style="width: 50px;">
+                              <p class="card-text"><a href="" style="color: yellow;">Smart Contract</a></p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <!-- Spied element -->
-          </div>
-        
-          <div class="col-md-4">
-            <!-- Scrollspy -->
-            <div id="scrollspy1" class="sticky-top">
-              <ul class="nav flex-column nav-pills menu-sidebar">
-                <li class="nav-item">
-                  <a class="nav-link" href="#example-1">Section 1</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#example-2">Section 2</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#example-3">Section 3</a>
-                  <ul class="nav flex-column ps-3">
-                    <li class="nav-item">
-                      <a class="nav-link" href="#example-sub-A">Subsection A</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#example-sub-B">Subsection B</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#example-4">Section 4</a>
-                </li>
-              </ul>
-            </div>
-            <!-- Scrollspy -->
+          </section>
         </div>
-        </div>
-      </div>
-      <style>
-        .scrollspy-example {
-        position: relative;
-        height: 200px;
-        overflow: auto;
-        }
-      </style>
-    </section>
-    <!--section2 end-->
+    </main>  
+    <!--main end-->
     <!--footer start-->
     <div class="container p-0">
         
@@ -379,4 +405,3 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->
   </body>
-</html>

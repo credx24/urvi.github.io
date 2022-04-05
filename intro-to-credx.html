@@ -7,6 +7,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
     <script src="https://kit.fontawesome.com/6c630a0de2.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Rowdies&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
@@ -17,7 +18,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@900&display=swap" rel="stylesheet">
-    <title>Get_CDX</title>
+    <title>Introduction to Credx</title>
   </head>
   <body>
     <!--Nav start-->
@@ -120,103 +121,142 @@
     </nav>
     <!--nav end-->
     <!--main start-->
-    <main class="mt-5">
+    <main>
       <div class="container">
         <section>
-          <div class="row justify-content-center">
-            <div class="col-md-4 text-center">
-              <h1 style="font-weight: bold; padding-bottom: 2%;">Where to buy <span class="text-primary">CDX</span></h1>
-              <p>You can buy CDX from exchanges or from wallets directly.</p>
-              <p>Check which services you can use based on where you live.</p>
-              <div class="card w-100">
-                <div class="card-body">
-                  <h5 class="card-title" style="font-weight: bold;">Current CDX Value</h5>
-                  <p class="card-text" style="font-size: 30px;">$2.4382367</p>
-                  <a href="#" class="btn btn-warning">Get CDX</a>
+          <div class="tag"></div>
+            <div class="container mycontainer">
+              <div class="row p-3 myrow shadow-lg custom-row">
+                <div class="col-md-3">
+                  <div id="list-example" class="list-group">
+                      <a class="text-start" href="Overview.html" style="text-decoration: none; color: orangered; font-size: 20px; padding-top: 2%; padding-bottom: 3%;">Overview</a>
+                      <ul style="list-style-type: none;">
+                        <li class="nav-item" style="text-decoration: none;">
+                          <a class="nav-link text-start" href="#list-item-1">Foundational topics</a>
+                          <ul class="nav flex-column ps-3">
+                            <li class="nav-item">
+                              <a class="nav-link" href="intro-to-credx.html">Intro to Credx</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="intro-to-cdx.html">Intro to CDx</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="intro-to-dapps.html">Intro to dapps</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="web2-vs-web3.html">web2 vs web3</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="Accounts.html">Accounts</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="Blocks.html">Blocks</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="network.html">Networks</a>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                      <ul style="list-style-type: none;">
+                        <li class="nav-item" style="text-decoration: none;">
+                          <a class="nav-link text-start" href="#list-item-2">Credx Stake</a>
+                          <ul class="nav flex-column ps-3">
+                            <li class="nav-item">
+                              <a class="nav-link" href="intro-to-stack.html">Intro to the stack</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="smart-contracts.html">Smart Contract</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="Developmet_framework.html">Development Framework</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="storage.html">Storage</a>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                      <ul style="list-style-type: none;">
+                        <li class="nav-item" style="text-decoration: none;">
+                          <a class="nav-link text-start" href="Advanced.html">Advanced</a>
+                        </li>
+                      </ul>
+                  </div>
+                </div>
+                  <div class="col-md-9 pe-0 text-center" style="padding-top: 5%;">
+                    <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+                        <h3 id="list-item-1" class="text-center" style="padding-bottom: 3%;">INTRO TO CREDX</h3>
+                        <h4 class="text-start">WHAT IS A BLOCKCHAIN?</h4>
+                        <hr class="my-3">
+                        <p class="text-start">A blockchain is a public database that is updated and shared across many computers in a network.</p>
+                        <p class="text-start">"Block" refers to data and state being stored in consecutive groups known as "blocks". If you send CDX to someone else, the transaction data needs to be added to a block to be successful.</p>
+                        <p class="text-start">"Chain" refers to the fact that each block cryptographically references its parent. In other words, blocks get chained together. The data in a block cannot change without changing all subsequent blocks, which would require the consensus of the entire network.</p>   
+                        <p class="text-start">Every computer in the network must agree upon each new block and the chain as a whole. These computers are known as "nodes". Nodes ensure everyone interacting with the blockchain has the same data. To accomplish this distributed agreement, blockchains need a consensus mechanism.</p>  
+                        <p class="text-start">Credx currently uses a proof-of-work consensus mechanism. This means that anyone who wants to add new blocks to the chain must solve a difficult puzzle that requires a lot of computing power. Solving the puzzle "proves" that you have done the "work" by using computational resources. Doing this is known as mining. Mining is typically brute force trial and error, but successfully adding a block is rewarded in CDX.</p>
+                        <p class="text-start">New blocks are broadcast to the nodes in the network, checked and verified, thus updating the state of the blockchain for everyone.</p> 
+                        <p class="text-start">So to summarize, when you send CDX to someone, the transaction must be mined and included in a new block. The updated state is then shared with the entire network.</p>
+                        <h4 class="text-start">WHAT IS CREDX?</h4>
+                        <hr class="my-3">
+                        <p class="text-start">In the CREDX universe, there is a single, canonical computer (called the credx Virtual Machine, or CVM) whose state everyone on the CREDX network agrees on. Everyone who participates in the Credx network keeps a copy of the state of this computer. Additionally, any participant can broadcast a request for this computer to perform arbitrary computation. Whenever such a request is broadcast, other participants on the network verify, validate, and carry out ("execute") the computation. This execution causes a state change in the CVM, which is committed and propagated throughout the entire network.</p>
+                        <p class="text-start">Requests for computation are called transaction requests; the record of all transactions and the CVM's present state gets stored on the blockchain, which in turn is stored and agreed upon by all nodes.</p>
+                        <p class="text-start">Cryptographic mechanisms ensure that once transactions are verified as valid and added to the blockchain, they can't be tampered with later. The same mechanisms also ensure that all transactions are signed and executed with appropriate "permissions".</p>
+                        <h4 class="text-start">WHAT IS CDX?</h4>
+                        <p class="text-start">Ether (ETH) is the native cryptocurrency of Ethereum. The purpose of ether is to allow for a market for computation. Such a market provides an economic incentive for participants to verify and execute transaction requests and provide computational resources to the network.</p>
+                        <p class="text-start">Any participant who broadcasts a transaction request must also offer some amount of ether to the network as a bounty. This bounty will be awarded to whoever eventually does the work of verifying the transaction, executing it, committing it to the blockchain, and broadcasting it to the network.</p>
+                        <p class="text-start">The amount of ether paid corresponds to the time required to do the computation. These bounties also prevent malicious participants from intentionally clogging the network by requesting the execution of infinite computation or other resource-intensive scripts, as these participants must pay for computation time.</p>
+                        <h4 class="text-start">WHAT ARE SMART CONTRACTS?</h4>
+                        <p class="text-start">In practice, participants don't write new code every time they want to request a computation on the EVM. Rather, application developers upload programs (reusable snippets of code) into EVM state, and users make requests to execute these code snippets with varying parameters. We call the programs uploaded to and executed by the network smart contracts.</p>
+                        <p class="text-start">At a very basic level, you can think of a smart contract like a sort of vending machine: a script that, when called with certain parameters, performs some actions or computation if certain conditions are satisfied. For example, a simple vendor smart contract could create and assign ownership of a digital asset if the caller sends ether to a specific recipient.</p>
+                        <p class="text-start">Any developer can create a smart contract and make it public to the network, using the blockchain as its data layer, for a fee paid to the network. Any user can then call the smart contract to execute its code, again for a fee paid to the network.</p>
+                        <p class="text-start">Thus, with smart contracts, developers can build and deploy arbitrarily complex user-facing apps and services such as: marketplaces, financial instruments, games, etc.</p>
+                        <h4 class="text-start">TERMINOLOGY</h4>
+                        <hr class="my-3">
+                        <h4 class="text-start">Blockchain</h4>
+                        <p class="text-start">The sequence of all blocks that have been committed to the Ethereum network in the history of the network. So-named because each block contains a reference to the previous block, which helps us maintain an ordering over all blocks (and thus over the precise history).</p>
+                        <h4 class="text-start">CDX</h4>
+                        <p class="text-start">The native cryptocurrency of Credx. Users pay cdx to other users to have their code execution requests fulfilled.</p>
+                        <p class="text-start"><a href="intro-to-cdx.html" style="color: orangered">Intro to CDX</a></p>
+                        <h4 class="text-start">CVM</h4>
+                        <p class="text-start">The Credx Virtual Machine is the global virtual computer whose state every participant on the Credx network stores and agrees on. Any participant can request the execution of arbitrary code on the CVM; code execution changes the state of the CVM.</p>
+                        <h4 class="text-start">Accounts</h4>
+                        <p class="text-start">Where ether is stored. Users can initialize accounts, deposit ether into the accounts, and transfer cdx from their accounts to other users. Accounts and account balances are stored in a big table in the CVM; they are a part of the overall CVM state.</p>
+                        <p class="text-start"><a href="intro-to-cdx.html" style="color: orangered">Accounts</a></p>
+                        <h4 class="text-start">Transactions</h4>
+                        <p class="text-start">A "transaction request" is the formal term for a request for code execution on the EVM, and a "transaction" is a fulfilled transaction request and the associated change in the EVM state. Any user can broadcast a transaction request to the network from a node. For the transaction request to affect the agreed-upon EVM state, it must be validated, executed, and "committed to the network" by another node. Execution of any code causes a state change in the EVM; upon commitment, this state change is broadcast to all nodes in the network. Some examples of transactions:</p>
+                        <ul class="text-start">
+                            <li>Send X ether from my account to Alice's account.</li>
+                            <li>Publish some smart contract code into CVM state.</li>
+                            <li>Execute the code of the smart contract at address X in the CVM, with arguments Y.</li>
+                        </ul>
+                        <p class="text-start"><a href="intro-to-cdx.html" style="color: orangered">Transactions</a></p>
+                        <h4 class="text-start">Blocks</h4>
+                        <p class="text-start">The volume of transactions is very high, so transactions are "committed" in batches, or blocks. Blocks generally contain dozens to hundreds of transactions.</p>
+                        <p class="text-start"><a href="intro-to-cdx.html" style="color: orangered">More on Blocks</a></p>
+                        <h4 class="text-start">Smart contracts</h4>
+                        <p class="text-start">A reusable snippet of code (a program) which a developer publishes into EVM state. Anyone can request that the smart contract code be executed by making a transaction request. Because developers can write arbitrary executable applications into the EVM (games, marketplaces, financial instruments, etc.) by publishing smart contracts, these are often also called dapps, or Decentralized Apps.</p>
+                        <p class="text-start"><a href="intro-to-cdx.html" style="color: orangered">More on smart contract</a></p>
+                        <div class="card text-white bg-dark mb-3 float-end" style="width: 18rem;">
+                            <div class="card-body">
+                              <h5 class="card-title">NEXT</h5>
+                              <img src="images/online/right.svg" style="width: 50px;">
+                              <p class="card-text"><a href="" style="color: yellow;">Intro to CDX</a></p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-        </section>
-        <hr class="my-5">
-        <section>
-          <div class="row">
-            <div class="col-md-4">
-              <div class="card text-white bg-dark mb-3" style="max-width: 500rem;">
-                <div class="card-header"><img src="images/online/centralized.png" style="width: 100px;"></div>
-                <div class="card-body">
-                  <h5 class="card-title" style="font-weight: bold; padding-top: 5%; padding-bottom: 6%;">Centralized exchanges</h5>
-                  <p class="card-text" style="padding-top: 5%; padding-bottom: 10%;">Exchanges are businesses that let you buy crypto using traditional currencies. They have custody over any ETH you buy until you send it to a wallet you control.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card text-white bg-dark mb-3" style="max-width: 500rem;">
-                <div class="card-header"><img src="images/online/persons.png" style="width: 100px;"></div>
-                <div class="card-body">
-                  <h5 class="card-title" style="font-weight: bold; padding-top: 5%; padding-bottom: 12%;">Decentralized exchanges (DEXs)</h5>
-                  <p class="card-text" style="padding-top: 5%; padding-bottom: 10%;">If you want more control, buy ETH peer-to-peer. With a DEX you can trade without giving control of your funds to a centralized company.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card text-white bg-dark mb-3" style="max-width: 500rem;">
-                <div class="card-header"><img src="images/online/wallet.png" style="width: 100px;"></div>
-                <div class="card-body">
-                  <h5 class="card-title text-start" style="font-weight: bold; padding-top: 5%; padding-bottom: 12%;">Wallets</h5>
-                  <p class="card-text" style="padding-top: 5%; padding-bottom: 10%;">Some wallets let you buy crypto with a debit/credit card, bank transfer or even Apple Pay. Geographical restrictions apply.</p>
-                </div>
-              </div>
-            </div>
-        </section>
-        <hr class="my-5">
-        <section>
-          <div class="row">
-            <h1 style="font-weight: bold; padding-bottom: 60px;" class="text-center">Decentralized exchanges (DEXs)</h1>
-            <div class="col-md-6 gx-5 mb-4" style="padding-bottom: 40px;">
-              <h1 style="font-weight: bold; padding-bottom: 30px;">What are <span class="text-primary">DEXs?</span></h1>
-              <p>Decentralized exchanges are open marketplaces for CDX and other tokens. They connect buyers and sellers directly.</p>
-              <p>Instead of using a trusted third party to safeguard funds in the transaction, they use code. The seller's CDX will only be transferred when payment is guaranteed. This type of code is known as a smart contract.</p>
-              <p>This means there are fewer geographical restrictions than with centralized alternatives. If someone is selling what you want and accepting a payment method you can provide, you’re good to go. DEXs can let you buy CDX with other tokens, PayPal or even in-person cash deliveries.</p>
-              <p>You will need a wallet to use a DEX.</p>
-              <button class="btn btn-warning px-4 py-2" style="border-radius: 30px; font-weight: bold;">CDX Wallet</button>
-            </div>
-            <div class="col-md-6 gx-5 mb-4">
-              <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5" data-mbd-ripple-color="light">
-                <img src="images/getstarted.svg" class="img-fluid">
-                <a href="#!">
-                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
-        <hr class="my-5">
-        <section>
-          <h1 style="font-weight: bold; padding-bottom: 50px; padding-top: 10px;" class="text-center">Keeping your <span class="text-primary">CDX</span> safe</h1>
-          <div class="row">
-            <div class="col-md-6 gx-5 mb-4">
-              <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5" data-mbd-ripple-color="light">
-                <img src="images/getstarted.svg" class="img-fluid">
-                <a href="#!">
-                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                </a>
-              </div>
-            </div>
-            <div class="col-md-6 gx-5 mb-4">
-              <p>CredX and CDX aren't controlled by any government or company - they are decentralized. This means CDX's open to everyone to use.</p>
-              <p>But this also means you need to take the security of your funds seriously. With CDX, you’re not trusting a bank to look after your money, you’re trusting yourself.</p>
-              <h3 style="font-weight: bold; padding-bottom: 20px; padding-top: 20px;">Protect your <span class="text-primary">CDX</span> in a wallet</h3>
-              <p>If you plan on buying a lot of CDX you may want to keep it in a wallet you control, not an exchange. That's because an exchange is a likely target for hackers. If a hacker gains access, you could lose your funds. Alternatively, only you have control of your wallet.</p>
-            </div>
-          </div>
-        </section>
-        <hr class="my-5">
-      </div>
-    </main>
+          </section>
+        </div>
+    </main>  
     <!--main end-->
     <!--footer start-->
     <div class="container p-0">
+        
     </div>
+    
     <!-- Footer -->
     <footer class="bg-dark text-center text-white">
     <!-- Grid container -->
@@ -377,4 +417,3 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->
   </body>
-</html>
