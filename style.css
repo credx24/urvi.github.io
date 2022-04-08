@@ -23,10 +23,6 @@ body{
         color: white;
         size: 50px;
 }
-.navbar-brand img{
-    height: 50px;
-    width: 50px;
-}
 .navbar-toggler{
     width: 20px;
     height: 20px;
@@ -43,7 +39,7 @@ body{
 }
 .navbar-toggler span{
     margin: 0;
-    top: 0;
+    top: 1;
 }
 .toggler-icon{
     display: block;
