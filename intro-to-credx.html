@@ -181,57 +181,57 @@
                 </div>
                   <div class="col-md-9 pe-0 text-center" style="padding-top: 5%;">
                     <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example" tabindex="0">
-                        <h3 id="list-item-1" class="text-center wow tada" style="padding-bottom: 3%;">INTRO TO CREDX</h3>
-                        <h4 class="text-start wow zoomIn">WHAT IS A BLOCKCHAIN?</h4>
+                        <h3 id="list-item-1" class="text-center" style="padding-bottom: 3%;">INTRO TO CREDX</h3>
+                        <h4 class="text-start">WHAT IS A BLOCKCHAIN?</h4>
                         <hr class="my-3">
-                        <p class="text-start wow fadeInLeft">A blockchain is a public database that is updated and shared across many computers in a network.</p>
-                        <p class="text-start wow fadeInRight">"Block" refers to data and state being stored in consecutive groups known as "blocks". If you send CDX to someone else, the transaction data needs to be added to a block to be successful.</p>
-                        <p class="text-start wow fadeInLeft">"Chain" refers to the fact that each block cryptographically references its parent. In other words, blocks get chained together. The data in a block cannot change without changing all subsequent blocks, which would require the consensus of the entire network.</p>   
-                        <p class="text-start  wow fadeInRight">Every computer in the network must agree upon each new block and the chain as a whole. These computers are known as "nodes". Nodes ensure everyone interacting with the blockchain has the same data. To accomplish this distributed agreement, blockchains need a consensus mechanism.</p>  
-                        <p class="text-start wow fadeInLeft">Credx currently uses a proof-of-work consensus mechanism. This means that anyone who wants to add new blocks to the chain must solve a difficult puzzle that requires a lot of computing power. Solving the puzzle "proves" that you have done the "work" by using computational resources. Doing this is known as mining. Mining is typically brute force trial and error, but successfully adding a block is rewarded in CDX.</p>
-                        <p class="text-start  wow fadeInRight">New blocks are broadcast to the nodes in the network, checked and verified, thus updating the state of the blockchain for everyone.</p> 
-                        <p class="text-start wow fadeInLeft">So to summarize, when you send CDX to someone, the transaction must be mined and included in a new block. The updated state is then shared with the entire network.</p>
-                        <h4 class="text-start wow zoomIn">WHAT IS CREDX?</h4>
+                        <p class="text-start">A blockchain is a public database that is updated and shared across many computers in a network.</p>
+                        <p class="text-start">"Block" refers to data and state being stored in consecutive groups known as "blocks". If you send CDX to someone else, the transaction data needs to be added to a block to be successful.</p>
+                        <p class="text-start">"Chain" refers to the fact that each block cryptographically references its parent. In other words, blocks get chained together. The data in a block cannot change without changing all subsequent blocks, which would require the consensus of the entire network.</p>   
+                        <p class="text-start">Every computer in the network must agree upon each new block and the chain as a whole. These computers are known as "nodes". Nodes ensure everyone interacting with the blockchain has the same data. To accomplish this distributed agreement, blockchains need a consensus mechanism.</p>  
+                        <p class="text-start">Credx currently uses a proof-of-work consensus mechanism. This means that anyone who wants to add new blocks to the chain must solve a difficult puzzle that requires a lot of computing power. Solving the puzzle "proves" that you have done the "work" by using computational resources. Doing this is known as mining. Mining is typically brute force trial and error, but successfully adding a block is rewarded in CDX.</p>
+                        <p class="text-start">New blocks are broadcast to the nodes in the network, checked and verified, thus updating the state of the blockchain for everyone.</p> 
+                        <p class="text-start">So to summarize, when you send CDX to someone, the transaction must be mined and included in a new block. The updated state is then shared with the entire network.</p>
+                        <h4 class="text-start">WHAT IS CREDX?</h4>
                         <hr class="my-3">
-                        <p class="text-start wow fadeInLeft">In the CREDX universe, there is a single, canonical computer (called the credx Virtual Machine, or CVM) whose state everyone on the CREDX network agrees on. Everyone who participates in the Credx network keeps a copy of the state of this computer. Additionally, any participant can broadcast a request for this computer to perform arbitrary computation. Whenever such a request is broadcast, other participants on the network verify, validate, and carry out ("execute") the computation. This execution causes a state change in the CVM, which is committed and propagated throughout the entire network.</p>
-                        <p class="text-start  wow fadeInRight">Requests for computation are called transaction requests; the record of all transactions and the CVM's present state gets stored on the blockchain, which in turn is stored and agreed upon by all nodes.</p>
-                        <p class="text-start wow fadeInLeft">Cryptographic mechanisms ensure that once transactions are verified as valid and added to the blockchain, they can't be tampered with later. The same mechanisms also ensure that all transactions are signed and executed with appropriate "permissions".</p>
-                        <h4 class="text-start wow zoomIn">WHAT IS CDX?</h4>
-                        <p class="text-start  wow fadeInRight">Ether (ETH) is the native cryptocurrency of Ethereum. The purpose of ether is to allow for a market for computation. Such a market provides an economic incentive for participants to verify and execute transaction requests and provide computational resources to the network.</p>
-                        <p class="text-start wow fadeInLeft">Any participant who broadcasts a transaction request must also offer some amount of ether to the network as a bounty. This bounty will be awarded to whoever eventually does the work of verifying the transaction, executing it, committing it to the blockchain, and broadcasting it to the network.</p>
-                        <p class="text-start  wow fadeInRight">The amount of ether paid corresponds to the time required to do the computation. These bounties also prevent malicious participants from intentionally clogging the network by requesting the execution of infinite computation or other resource-intensive scripts, as these participants must pay for computation time.</p>
-                        <h4 class="text-start wow zoomIn">WHAT ARE SMART CONTRACTS?</h4>
-                        <p class="text-start wow fadeInLeft">In practice, participants don't write new code every time they want to request a computation on the EVM. Rather, application developers upload programs (reusable snippets of code) into EVM state, and users make requests to execute these code snippets with varying parameters. We call the programs uploaded to and executed by the network smart contracts.</p>
-                        <p class="text-start  wow fadeInRight">At a very basic level, you can think of a smart contract like a sort of vending machine: a script that, when called with certain parameters, performs some actions or computation if certain conditions are satisfied. For example, a simple vendor smart contract could create and assign ownership of a digital asset if the caller sends ether to a specific recipient.</p>
-                        <p class="text-start wow fadeInLeft">Any developer can create a smart contract and make it public to the network, using the blockchain as its data layer, for a fee paid to the network. Any user can then call the smart contract to execute its code, again for a fee paid to the network.</p>
-                        <p class="text-start  wow fadeInRight">Thus, with smart contracts, developers can build and deploy arbitrarily complex user-facing apps and services such as: marketplaces, financial instruments, games, etc.</p>
-                        <h4 class="text-start wow zoomIn">TERMINOLOGY</h4>
+                        <p class="text-start">In the CREDX universe, there is a single, canonical computer (called the credx Virtual Machine, or CVM) whose state everyone on the CREDX network agrees on. Everyone who participates in the Credx network keeps a copy of the state of this computer. Additionally, any participant can broadcast a request for this computer to perform arbitrary computation. Whenever such a request is broadcast, other participants on the network verify, validate, and carry out ("execute") the computation. This execution causes a state change in the CVM, which is committed and propagated throughout the entire network.</p>
+                        <p class="text-start">Requests for computation are called transaction requests; the record of all transactions and the CVM's present state gets stored on the blockchain, which in turn is stored and agreed upon by all nodes.</p>
+                        <p class="text-start">Cryptographic mechanisms ensure that once transactions are verified as valid and added to the blockchain, they can't be tampered with later. The same mechanisms also ensure that all transactions are signed and executed with appropriate "permissions".</p>
+                        <h4 class="text-star">WHAT IS CDX?</h4>
+                        <p class="text-start">CDX is the native cryptocurrency of Ethereum. The purpose of ether is to allow for a market for computation. Such a market provides an economic incentive for participants to verify and execute transaction requests and provide computational resources to the network.</p>
+                        <p class="text-start">Any participant who broadcasts a transaction request must also offer some amount of ether to the network as a bounty. This bounty will be awarded to whoever eventually does the work of verifying the transaction, executing it, committing it to the blockchain, and broadcasting it to the network.</p>
+                        <p class="text-start">The amount of ether paid corresponds to the time required to do the computation. These bounties also prevent malicious participants from intentionally clogging the network by requesting the execution of infinite computation or other resource-intensive scripts, as these participants must pay for computation time.</p>
+                        <h4 class="text-start">WHAT ARE SMART CONTRACTS?</h4>
+                        <p class="text-start">In practice, participants don't write new code every time they want to request a computation on the EVM. Rather, application developers upload programs (reusable snippets of code) into EVM state, and users make requests to execute these code snippets with varying parameters. We call the programs uploaded to and executed by the network smart contracts.</p>
+                        <p class="text-start">At a very basic level, you can think of a smart contract like a sort of vending machine: a script that, when called with certain parameters, performs some actions or computation if certain conditions are satisfied. For example, a simple vendor smart contract could create and assign ownership of a digital asset if the caller sends ether to a specific recipient.</p>
+                        <p class="text-start">Any developer can create a smart contract and make it public to the network, using the blockchain as its data layer, for a fee paid to the network. Any user can then call the smart contract to execute its code, again for a fee paid to the network.</p>
+                        <p class="text-start">Thus, with smart contracts, developers can build and deploy arbitrarily complex user-facing apps and services such as: marketplaces, financial instruments, games, etc.</p>
+                        <h4 class="text-start">TERMINOLOGY</h4>
                         <hr class="my-3">
-                        <h4 class="text-start wow zoomIn">Blockchain</h4>
-                        <p class="text-start wow fadeInLeft">The sequence of all blocks that have been committed to the Ethereum network in the history of the network. So-named because each block contains a reference to the previous block, which helps us maintain an ordering over all blocks (and thus over the precise history).</p>
-                        <h4 class="text-start wow zoomIn">CDX</h4>
-                        <p class="text-start  wow fadeInRight">The native cryptocurrency of Credx. Users pay cdx to other users to have their code execution requests fulfilled.</p>
-                        <p class="text-start wow fadeInLeft"><a href="intro-to-cdx.html" style="color: orangered">Intro to CDX</a></p>
-                        <h4 class="text-start wow zoomIn">CVM</h4>
-                        <p class="text-start  wow fadeInRight">The Credx Virtual Machine is the global virtual computer whose state every participant on the Credx network stores and agrees on. Any participant can request the execution of arbitrary code on the CVM; code execution changes the state of the CVM.</p>
-                        <h4 class="text-start wow zoomIn">Accounts</h4>
-                        <p class="text-start wow fadeInLeft">Where ether is stored. Users can initialize accounts, deposit ether into the accounts, and transfer cdx from their accounts to other users. Accounts and account balances are stored in a big table in the CVM; they are a part of the overall CVM state.</p>
-                        <p class="text-start  wow fadeInRight"><a href="intro-to-cdx.html" style="color: orangered">Accounts</a></p>
-                        <h4 class="text-start wow zoomIn">Transactions</h4>
-                        <p class="text-start  wow fadeInRight">A "transaction request" is the formal term for a request for code execution on the EVM, and a "transaction" is a fulfilled transaction request and the associated change in the EVM state. Any user can broadcast a transaction request to the network from a node. For the transaction request to affect the agreed-upon EVM state, it must be validated, executed, and "committed to the network" by another node. Execution of any code causes a state change in the EVM; upon commitment, this state change is broadcast to all nodes in the network. Some examples of transactions:</p>
+                        <h4 class="text-start">Blockchain</h4>
+                        <p class="text-start">The sequence of all blocks that have been committed to the Ethereum network in the history of the network. So-named because each block contains a reference to the previous block, which helps us maintain an ordering over all blocks (and thus over the precise history).</p>
+                        <h4 class="text-start">CDX</h4>
+                        <p class="text-start">The native cryptocurrency of Credx. Users pay cdx to other users to have their code execution requests fulfilled.</p>
+                        <p class="text-start"><a href="intro-to-cdx.html" style="color: orangered">Intro to CDX</a></p>
+                        <h4 class="text-start">CVM</h4>
+                        <p class="text-start">The Credx Virtual Machine is the global virtual computer whose state every participant on the Credx network stores and agrees on. Any participant can request the execution of arbitrary code on the CVM; code execution changes the state of the CVM.</p>
+                        <h4 class="text-start">Accounts</h4>
+                        <p class="text-start">Where ether is stored. Users can initialize accounts, deposit ether into the accounts, and transfer cdx from their accounts to other users. Accounts and account balances are stored in a big table in the CVM; they are a part of the overall CVM state.</p>
+                        <p class="text-start"><a href="intro-to-cdx.html" style="color: orangered">Accounts</a></p>
+                        <h4 class="text-start">Transactions</h4>
+                        <p class="text-start">A "transaction request" is the formal term for a request for code execution on the EVM, and a "transaction" is a fulfilled transaction request and the associated change in the EVM state. Any user can broadcast a transaction request to the network from a node. For the transaction request to affect the agreed-upon EVM state, it must be validated, executed, and "committed to the network" by another node. Execution of any code causes a state change in the EVM; upon commitment, this state change is broadcast to all nodes in the network. Some examples of transactions:</p>
                         <ul class="text-start">
-                            <li class="wow fadeInLeft">Send X ether from my account to Alice's account.</li>
-                            <li class=" wow fadeInRight">Publish some smart contract code into CVM state.</li>
-                            <li class="wow fadeInLeft">Execute the code of the smart contract at address X in the CVM, with arguments Y.</li>
+                            <li>Send X ether from my account to Alice's account.</li>
+                            <li>Publish some smart contract code into CVM state.</li>
+                            <li>Execute the code of the smart contract at address X in the CVM, with arguments Y.</li>
                         </ul>
-                        <p class="text-start  wow fadeInRight"><a href="intro-to-cdx.html" style="color: orangered">Transactions</a></p>
-                        <h4 class="text-start wow zoomIn">Blocks</h4>
-                        <p class="text-start  wow fadeInRight">The volume of transactions is very high, so transactions are "committed" in batches, or blocks. Blocks generally contain dozens to hundreds of transactions.</p>
-                        <p class="text-start wow fadeInLeft"><a href="intro-to-cdx.html" style="color: orangered">More on Blocks</a></p>
-                        <h4 class="text-start wow zoomIn">Smart contracts</h4>
-                        <p class="text-start  wow fadeInRight">A reusable snippet of code (a program) which a developer publishes into EVM state. Anyone can request that the smart contract code be executed by making a transaction request. Because developers can write arbitrary executable applications into the EVM (games, marketplaces, financial instruments, etc.) by publishing smart contracts, these are often also called dapps, or Decentralized Apps.</p>
-                        <p class="text-start wow fadeInLeft"><a href="intro-to-cdx.html" style="color: orangered">More on smart contract</a></p>
-                        <div class="card text-white bg-dark mb-3 float-end wow infinite tada" style="width: 18rem;">
+                        <p class="text-start"><a href="intro-to-cdx.html" style="color: orangered">Transactions</a></p>
+                        <h4 class="text-start">Blocks</h4>
+                        <p class="text-start">The volume of transactions is very high, so transactions are "committed" in batches, or blocks. Blocks generally contain dozens to hundreds of transactions.</p>
+                        <p class="text-start"><a href="intro-to-cdx.html" style="color: orangered">More on Blocks</a></p>
+                        <h4 class="text-start">Smart contracts</h4>
+                        <p class="text-start">A reusable snippet of code (a program) which a developer publishes into EVM state. Anyone can request that the smart contract code be executed by making a transaction request. Because developers can write arbitrary executable applications into the EVM (games, marketplaces, financial instruments, etc.) by publishing smart contracts, these are often also called dapps, or Decentralized Apps.</p>
+                        <p class="text-start"><a href="intro-to-cdx.html" style="color: orangered">More on smart contract</a></p>
+                        <div class="card text-white bg-dark mb-3 float-end" style="width: 18rem;">
                             <div class="card-body">
                               <h5 class="card-title">NEXT</h5>
                               <img src="images/online/right.svg" style="width: 50px;">
@@ -331,7 +331,7 @@
         <div class="col-lg-4 col-md-6 mb-4 mb-md-0 text-start">
             <h1 class="text-white" style="font-size: 20px; font-weight: bold;">Resources</h1>
             <p class="text-muted"><img style="width: 20px;" src="images/online/blockpapet.png"> Block paper</p>
-            <p class="text-muted"><img style="width: 20px;" src="images/online/whitepaper.png"> WhitePaper</p>
+            <p class="text-muted"><img style="width: 20px;" src="images/online/whitepaper.png"> <a href="images/Credx_HongKong.pdf" target="_blank" style="text-decoration: none; color: lightslategrey;">WhitePaper</a></p>
         </div>
         <div class="col-lg-4 col-md-6 mb-4 mb-md-0 text-start">
             <h1 class="text-white" style="font-size: 20px; font-weight: bold;">Where To contact?</h1>
@@ -363,7 +363,6 @@
                 <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="what_is_cdx.html">What is CDX?</a></p>
                 <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="Defi.html">Decentralized Finance(DeFi)</a></p>
                 <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="smart_contract.html">Smart Contracts</a></p>
-                <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="history_of_credx.html">History of Credx</a></p>
                 <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="images/Credx_HongKong.pdf">WhitePaper</a></p>
                 <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="CredX_support.html">CredX Scam and Security</a></p>
           </div>
@@ -373,8 +372,8 @@
           <div class="col-lg-2 col-md-6 mb-4 mb-md-0 text-start">
             <h1 class="text-white" style="font-size: 20px; font-weight: bold;">Developers</h1>
                 <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="Developer_name.html">Developer'S Home</a></p>
-                <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="Overview.html">Documentation</a></p>
-                <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="tutorial.html">Tutorials</a></p>
+                <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="Documentation.html">Documentation</a></p>
+                <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="set_up_local_environment.html">Set Up Local Environment</a></p>
           </div>
           <!--Grid column-->
           <div class="col-lg-2 col-md-6 mb-4 mb-md-0 text-start">
@@ -384,7 +383,7 @@
           </div>
           <div class="col-lg-2 col-md-6 mb-4 mb-md-0 text-start">
             <h1 class="text-white" style="font-size: 20px; font-weight: bold;">Community</h1> 
-            <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="Community_hub.html"></a>Community Hub</p>
+            <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="communityhub.html">Community Hub</a></p>
             <p class="text-muted"><a style="text-decoration: none; color: lightslategrey;" href="CredX_support.html">CredX Spport</a></p>
           </div>
         </div>
@@ -424,3 +423,4 @@
                     wow.init();
     </script>
   </body>
+</html>  
