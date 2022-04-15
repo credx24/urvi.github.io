@@ -17,6 +17,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <title>stake_cdx</title>
   </head>
   <body>
@@ -118,13 +121,13 @@
           <div class="row">
             <div class="col-md-6 gx-5 mb-4">
               <h4 class="text-muted" style="padding-top: 10%;">HOW TO STAKE YOUR CDX</h4>
-              <h2 style="font-weight: bold; padding-top: 5%; padding-bottom: 5%;">Stake your CDX to become an CredX validator</h2>
-              <p>Staking is a public good for the Credx ecosystem. You can help secure the network and earn rewards in the process.</p>
-              <button class="btn btn-warning px-4 py-2" style="border-radius: 30px; font-weight: bold;"><a href="intro-to-stack.html" style="text-decoration: none; color: black;">Start Staking</a></button>
+              <h2 style="font-weight: bold; padding-top: 5%; padding-bottom: 5%;" class="wow zoomIn">Stake your CDX to become an CredX validator</h2>
+              <p class="wow fadeInLeft">Staking is a public good for the Credx ecosystem. You can help secure the network and earn rewards in the process.</p>
+              <button class="btn btn-warning px-4 py-2 wow rubberBand" style="border-radius: 30px; font-weight: bold;"><a href="intro-to-stack.html" style="text-decoration: none; color: black;">Start Staking</a></button>
             </div>
             <div class="col-md-6 gx-5 mb-4">
               <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5" data-mbd-ripple-color="light">
-                <img src="images/getstarted.svg" class="img-fluid">
+                <img src="images/getstarted.svg" class="img-fluid wow infinite pulse">
                 <a href="#!">
                     <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                 </a>
@@ -134,12 +137,12 @@
         </section>
         <hr class="my-5">
         <section>
-          <h3 id="#stacking" style="color: black; font-weight: bold">Staking</h3>
+          <h3 id="#stacking" style="color: black; font-weight: bold" class="wow zoomIn">Staking</h3>
           <p style="padding-bottom: 2%;">Staking is the act of depositing 32 CDX to activate validator software. As a validator you’ll be responsible for storing data, processing transactions, and adding new blocks to the blockchain. This will keep CredX secure for everyone and earn you new CDX in the process. This process, known as proof-of-stake, is being introduced by the Beacon Chain.</p>
           <div class="row">
             <div class="col-md-4 gx-5 mb-4">
-              <div class="card text-white bg-dark mb-3" style="max-width: 25rem;">
-                <div class="card-header" style="padding-top: 5%;"><img src="images/online/flymoney.png" width="50px"></div>
+              <div class="card text-white bg-dark mb-3 wow fadeInLeft" style="max-width: 25rem;">
+                <div class="card-header" style="padding-top: 5%;"><img src="images/online/flymoney.png" width="50px" class="wow infinite pulse"></div>
                 <div class="card-body">
                   <h5 class="card-title" style="font-weight: bold; padding-top: 2%; padding-bottom: 3%;">Rewards</h5>
                   <p class="card-text" style="padding-bottom: 18%;">Rewards are given for actions that help the network reach consensus. You'll get rewards for batching transactions into a new block or checking the work of other validators because that's what keeps the chain running securely.</p>
@@ -147,8 +150,8 @@
               </div>
             </div>
             <div class="col-md-4 gx-5 mb-4">
-              <div class="card text-white bg-dark mb-3" style="max-width: 25rem;">
-                <div class="card-header" style="padding-top: 5%;"><img src="images/online/danger.png" width="50px"></div>
+              <div class="card text-white bg-dark mb-3  wow fadeInDown" style="max-width: 25rem;">
+                <div class="card-header" style="padding-top: 5%;"><img src="images/online/danger.png" width="50px" class="wow infinite pulse"></div>
                 <div class="card-body">
                   <h5 class="card-title" style="font-weight: bold; padding-top: 2%; padding-bottom: 3%;">Risks</h5>
                   <p class="card-text" style="padding-bottom: 31%;">Although you can earn rewards for doing work that benefits the network, you can lose CDX for malicious actions, going offline, and failing to validate.</p>
@@ -156,8 +159,8 @@
               </div>
             </div>
             <div class="col-md-4 gx-5 mb-4">
-              <div class="card text-white bg-dark mb-3" style="max-width: 25rem;">
-                <div class="card-header" style="padding-top: 5%;"><img src="images/online/notes.png" width="50px"></div>
+              <div class="card text-white bg-dark mb-3  wow fadeInRight" style="max-width: 25rem;">
+                <div class="card-header" style="padding-top: 5%;"><img src="images/online/notes.png" width="50px" class="wow infinite pulse"></div>
                 <div class="card-body">
                   <h5 class="card-title" style="font-weight: bold; padding-top: 2%; padding-bottom: 3%;">Requirements</h5>
                   <p class="card-text" style="padding-bottom: 10%;">You'll need 32 CDX to become a full validator or some CDX to join a staking pool. You'll also need to run an execution client (formerly 'Eth1 client'). The launchpad will walk you through the process and hardware requirements. Alternatively, you can use a backend API.</p>
@@ -169,7 +172,7 @@
         <hr class="my-5">
         <section>
           <div class="text-center">
-            <h1 style="font-weight: bold; padding-bottom: 4%;" clas="text-center">How to stake</h1>
+            <h1 style="font-weight: bold; padding-bottom: 4%;" clas="text-center wow zoomIn">How to stake</h1>
             <p style="padding-bottom: 1%;">It all depends on how much you are willing to stake. You'll need 32 to become a full validator, but it is possible to stake less.</p>
             <p style="padding-bottom: 1%;">How much are you willing to stake?</p>
           </div>
@@ -178,25 +181,25 @@
         <section>
           <div class="row">
             <div class="col-md-8 gx-5 mb-4">
-              <h2 style="padding-top: 2%; padding-bottom: 3%; font-weight: bold;">Proof-of-stake explained</h2>
-            <p style="padding-top: 2%; padding-bottom: 2%;">Staking is what you need to do to become a validator in a proof-of-stake system. This is a consensus mechanism that is going to replace the proof-of-work system currently in place. Consensus mechanisms are what keep blockchains like Ethereum secure and decentralized. </p>
-            <p style="padding-top: 2%; padding-bottom: 2%;">Proof-of-stake helps secure the network in a number of ways:</p>
-            <h4 style="padding-top: 2%; padding-bottom: 3%; font-weight: bold;">Your CDX is at stake</h4>
-            <p style="padding-top: 2%; padding-bottom: 2%;">Because you have to stake your CDX in order to validate transactions and create new blocks, you can lose it if you decide to try and cheat the system.</p>
-            <h4 style="padding-top: 2%; padding-bottom: 3%; font-weight: bold;">More validators, more security</h4>
-            <p style="padding-top: 2%; padding-bottom: 2%;">In a blockchain like Credx it is possible to censor and reorder transactions to suit you if you control a majority of the network. But, to control a majority of the network, you need a majority of validators, and for this you’d need to control a majority of the CDX in the system – that’s a lot! This amount of CDX grows every time a new validator enters the system, bolstering the security of the network. Proof-of-work, the security model proof-of-stake will replace, requires the validators (miners) to have specialist hardware and lots of physical space – entering the system as a miner is difficult so security against majority attacks doesn't increase as much. Proof-of-stake doesn't have these requirements, which should grow the network (and its resistance to majority attacks) to sizes that aren't possible with proof-of-work.</p>
+            <h2 style="padding-top: 2%; padding-bottom: 3%; font-weight: bold;" class="wow zoomIn">Proof-of-stake explained</h2>
+            <p style="padding-top: 2%; padding-bottom: 2%;" class="wow fadeInLeft">Staking is what you need to do to become a validator in a proof-of-stake system. This is a consensus mechanism that is going to replace the proof-of-work system currently in place. Consensus mechanisms are what keep blockchains like Ethereum secure and decentralized. </p>
+            <p style="padding-top: 2%; padding-bottom: 2%;" class="wow fadeInRight">Proof-of-stake helps secure the network in a number of ways:</p>
+            <h4 style="padding-top: 2%; padding-bottom: 3%; font-weight: bold;" class="wow ZoomIn">Your CDX is at stake</h4>
+            <p style="padding-top: 2%; padding-bottom: 2%;" class="wow fadeInLeft">Because you have to stake your CDX in order to validate transactions and create new blocks, you can lose it if you decide to try and cheat the system.</p>
+            <h4 style="padding-top: 2%; padding-bottom: 3%; font-weight: bold;" class="wow zoomIn">More validators, more security</h4>
+            <p style="padding-top: 2%; padding-bottom: 2%;" class="wow fadeInLeft">In a blockchain like Credx it is possible to censor and reorder transactions to suit you if you control a majority of the network. But, to control a majority of the network, you need a majority of validators, and for this you’d need to control a majority of the CDX in the system – that’s a lot! This amount of CDX grows every time a new validator enters the system, bolstering the security of the network. Proof-of-work, the security model proof-of-stake will replace, requires the validators (miners) to have specialist hardware and lots of physical space – entering the system as a miner is difficult so security against majority attacks doesn't increase as much. Proof-of-stake doesn't have these requirements, which should grow the network (and its resistance to majority attacks) to sizes that aren't possible with proof-of-work.</p>
             </div>
             <div class="col-md-4 gx-5 mb-4">
-              <div class="card text-white bg-dark mb-3" style="max-width: 25rem; padding-top: 5%;">
+              <div class="card text-white bg-dark mb-3 wow fadeInLeft" style="max-width: 25rem; padding-top: 5%;">
                 <div class="card-header" style="padding-top: 5%; padding-bottom: 4%; font-weight: bold; font-size: 20px;">Proof-of-stake and consensus upgrades</div>
                 <div class="card-body">
                   <p class="card-text">
                     <ul>
-                      <li style="padding-bottom: 4%;">Proof-of-stake is managed by the Beacon Chain.</li>
-                      <li style="padding-bottom: 4%;">Credx will have a proof-of-stake Beacon Chain and a proof-of-work Mainnet for the foreseeable future. Mainnet is the Credx we've been using for years.</li>
-                      <li style="padding-bottom: 4%;">During this time, stakers will be adding new blocks to the Beacon Chain but not processing mainnet transactions.</li>
-                      <li style="padding-bottom: 4%;">Credx will fully transition to a proof-of-stake system once the Credx mainnet merges with the Beacon Chain.</li>
-                      <li style="padding-bottom: 4%;">A minor upgrade will follow to enable withdraw of staked funds.</li>
+                      <li style="padding-bottom: 4%;" class="fadeInLeft">Proof-of-stake is managed by the Beacon Chain.</li>
+                      <li style="padding-bottom: 4%;" class="wow fadeInRight">Credx will have a proof-of-stake Beacon Chain and a proof-of-work Mainnet for the foreseeable future. Mainnet is the Credx we've been using for years.</li>
+                      <li style="padding-bottom: 4%;" class="fadeInLeft">During this time, stakers will be adding new blocks to the Beacon Chain but not processing mainnet transactions.</li>
+                      <li style="padding-bottom: 4%;" class="wow fadeInRight">Credx will fully transition to a proof-of-stake system once the Credx mainnet merges with the Beacon Chain.</li>
+                      <li style="padding-bottom: 4%;" class="fadeInLeft">A minor upgrade will follow to enable withdraw of staked funds.</li>
                     </ul>
                   </p>
                 </div>
@@ -206,10 +209,10 @@
         </section>
         <hr class="my-5">
         <section>
-          <h1 style="font-weight: bold; padding-top: 2%; padding-bottom: 5%; text-align: center;">Benefits of staking to Credx</h1>
+          <h1 style="font-weight: bold; padding-top: 2%; padding-bottom: 5%; text-align: center;" class="wow zoomIn">Benefits of staking to Credx</h1>
           <div class="row">
             <div class="col-md-4 gx-5 mb-4">
-              <div class="card text-white bg-dark mb-3" style="max-width: 25rem;">
+              <div class="card text-white bg-dark mb-3 wow fadeInLeft" style="max-width: 25rem;">
                 <div class="card-header" style="padding-bottom: 5%; padding-top: 3%;"><img src="images/online/tree.png" width="50px"></div>
                 <div class="card-body">
                   <h5 class="card-title" style="font-weight: bold; padding-top: 3%; padding-bottom: 8%;">More sustainable</h5>
@@ -218,7 +221,7 @@
               </div>
             </div>
             <div class="col-md-4 gx-5 mb-4">
-              <div class="card text-white bg-dark mb-3" style="max-width: 25rem;">
+              <div class="card text-white bg-dark mb-3 wow fadeInUp" style="max-width: 25rem;">
                 <div class="card-header" style="padding-bottom: 5%; padding-top: 3%;"><img src="images/online/world2.png" width="50px"></div>
                 <div class="card-body">
                   <h5 class="card-title" style="font-weight: bold; padding-top: 3%; padding-bottom: 8%;">More accessible</h5>
@@ -227,7 +230,7 @@
               </div>
             </div>
             <div class="col-md-4 gx-5 mb-4">
-              <div class="card text-white bg-dark mb-3" style="max-width: 25rem;">
+              <div class="card text-white bg-dark mb-3 wow fadeInRight" style="max-width: 25rem;">
                 <div class="card-header" style="padding-bottom: 5%; padding-top: 3%;"><img src="images/online/lock.png" width="50px"></div>
                 <div class="card-body">
                   <h5 class="card-title" style="font-weight: bold; padding-top: 3%; padding-bottom: 8%;">Unlocks sharding</h5>
@@ -404,5 +407,17 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->
+    <script>
+      wow = new WOW(
+                      {
+                      boxClass:     'wow',      // default
+                      animateClass: 'animated', // default
+                      offset:       0,          // default
+                      mobile:       true,       // default
+                      live:         true        // default
+                    }
+                    )
+                    wow.init();
+    </script>
   </body>
 </html>
